@@ -128,10 +128,21 @@ echo "<br/>".$Joseph->joseph_ring2(60,5)."<br/>";
 
 
 
+/**
+ * PHP模拟哈希表
+ */
+require_once('Class/hashTable.class.php'); //use Note\hashTable as hashTable;
 
+$list = new hashTable(200);
+$list->set("zero", "zero compare");
+$list->set("one", "first test");
+$list->set("two", "second test");
+$list->set("three", "three test");
+$list->set("four", "fouth test");
+$list->val();
 
-
-
+echo "after sorted : <br />";
+$list->rev(3);
 
 
 

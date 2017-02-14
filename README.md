@@ -34,8 +34,8 @@ index.php
 <br/> //解决约瑟夫环问题
 <br/> Class/Joseph.class.php
 
-
-
+<br/> //模拟哈希表 //有bug
+<br/> Class/hashTable.class.php
 
 
 
