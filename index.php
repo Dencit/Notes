@@ -2,11 +2,9 @@
 /* Created by User: soma Worker:陈鸿扬  Date: 17/2/14  Time: 10:08 */
 
 
-
 header("content-type:text/html;charset=utf-8");
 $arr = array(3,5,8,4,9,6,1,7,2);
 echo implode(" ",$arr)."<br/>";
-
 
 
 //---------------------------------------
