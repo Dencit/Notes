@@ -28,6 +28,21 @@ echo "快速排序：";
 echo implode(' ',Sort::QSort($arr))."<br/>";
 
 
+echo "希尔排序：";
+echo implode(' ',Sort::shellSort($arr))."<br/>";
+
+
+require_once('Class/MergeSort.class.php'); //use Note\MergeSort as MergeSort;
+echo "归并排序：";
+$arr = array(9,1,5,8,3,7,4,6,2);
+new MergeSort($arr);
+echo implode(' ',$arr)."<br/>";
+
+
+
+
+
+
 //---------------------------------------
 //              常用查找算法
 require_once('Class/Search.class.php'); //use Note\Search as Search;
