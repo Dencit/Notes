@@ -10,10 +10,10 @@ index.php
 
 [在线动画演示各种排序算法过程](http://www.atool.org/sort.php)
 
-<br/> //冒泡排序//选择排序//插入排序//快速排序//希尔排序
+<br/> //冒泡排序[稳定]//插入排序[稳定]//选择排序[不稳定]//快速排序[不稳定]//希尔排序[不稳定]
 <br/> Class/Sort.class.php
 
-<br/> //归并排序
+<br/> //归并排序[稳定]
 <br/> Class/MergeSort.class.php
 
 ###常用查找算法
