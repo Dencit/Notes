@@ -50,9 +50,13 @@ echo Search::SqSearch($arr,$key);
 require_once('Class/Structure.class.php'); //use Note\Structure as Structure;
 //---------------------------------------
 
+/**
+ * 线性表的删除(数组实现)
+ */
 $pos = 3;
 echo "<br/>除第{$pos}位置上的元素后：";
 echo implode(' ',Structure::delete_array_element($arr,$pos))."<br/>";
+
 
 /**
  * Class Node
